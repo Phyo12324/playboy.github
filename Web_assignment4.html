@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playboy Gaming</title>
+    <link rel="icon" type="images/Playboy" href="Images/playboy gaming.jpg">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color:rgb(167, 245, 152);
+        }
+        nav{
+            background-color:darkslateblue ;
+            height: 35px;
+        }
+        a{
+            text-decoration-line: none;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 25px;
+            color: rgb(247, 186, 31);
+            padding: 45px;
+        }
+        .video{
+            position: relative;
+        }
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            margin-left:70px;
+            margin-right:70px;
+            margin-top:15px;
+            text-align: center;
+        }
+        .container1{
+            display: flex;
+            align-items: center;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .container1 img{
+            border-radius: 50%;
+            width: 400px;
+            height: 300px;
+            margin-left: 15px;
+            margin-right: 20px;
+        }
+        p{
+            color: rgb(24, 10, 150);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .id1{
+            float: left;
+            width: 33.3%;
+            padding: 15px;
+        }
+        /* Clearfix (clear floats) */
+        .row::after{
+            content:"" ;
+            clear: both;
+            display: table;
+        }
+        footer {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(129, 129, 120);
+} 
+
+  </style>
+  <body>
+ 
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="Web_assignment4.html">Home</a>
+        <a href="Web_assignment4.html">Items</a>
+        <a href="Web_assignment4.html">Contact</a>
+        <a href="Web_assignment4.html">Review</a>
+    </nav>
+    <div style="text-align: center;"class="video">
+    <video width="100%" height="350px" controls autoplay>
+        <source src="video_2023-03-02_23-01-14.mp4" type="video/mp4">
+    </video>
+    <h2 style="font-family:cursive; color:tomato;">Welcome to PlayBoy Gaming!</h2>
+</div>
+    <div class="container1">
+        <img src="Images/playboy gaming.jpg" alt="gaming logo">
+        <p>Check out our gaming alphabet selection for the very best in unique or custom, handmade pieces from our digital shops.</p>
+    </div><br>
+    <h2 style="font-family:cursive; color:tomato">Best Video Games</h2>
+    <div class="row" style="border: 1px solid black;">
+        <div class="id1">
+            <img src="Images/rdr2.jpg" alt="game1" style="width: 100%" height="300px">
+        </div>
+        <div class="id1">
+            <img src="Images/god of war.jpg" alt="game2" style="width: 100%;" height="300px">
+        </div>
+        <div class="id1">
+            <img src="Images/sonofforest.jpg" alt="game3" style="width: 100%;" height="300px">
+        </div>
+    </div><br><br>
+    <footer>
+        <p style="color: black;">© 2023 PlayBoy Gaming!</p>
+    </footer>
+</html>
